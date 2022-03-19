@@ -1,0 +1,85 @@
+.upper{
+    width: 100%;
+    .main-upper{
+        width: 60%;
+        margin: 0 auto;
+        border: 1px red solid;
+        .bg-form{
+
+            .bg{
+                background-image: url(../images/main-bg.jpg);
+                background-size: cover;
+                height: 17vw;
+                .bg-text{
+                    width: 65%;
+                    height: 100%;
+                
+                    padding: 7%;
+
+                    p{
+                        font-size: 1.2vw;
+                        color: $red;
+                    }
+                    h1{
+                        font-size: 2.3vw;
+                        color: $red;
+                        margin-top: 3%;
+
+                    }
+                    button{
+                        background-color: $red;
+                        color: white;
+                        font-size: 1vw;
+                        width: 28%;
+                        height: 20%;
+                        margin-top: 5%;
+                        border: none;
+                        outline: none;
+                    }
+                }
+                
+            }
+            .form-container{
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                padding: 2%;
+                background-color: $yellow;
+                p{
+                    font-size: 1vw;
+                    font-weight: bold;
+                    margin-right: 3%;
+                }
+                form{
+                    display: inline-flex;
+                    width: 45%;
+                    height: 2vw;
+                    input{
+                        font-size: 1vw;
+                        width: 80%;
+                        padding: 1%;
+                        outline: none;
+                        border: none;
+                        &::placeholder{
+                            font-size: 0.9vw;
+                        }
+                    }
+                   
+                    button{
+                        width: 28%;
+                        font-size: 0.9vw;
+                        background-color: $red;
+                        color: white;
+                        border: none;
+                        outline: none;
+                        border-radius: 0 5px 5px 0;
+                        i{
+                            margin-right: 8%;
+                            font-size: 0.8vw;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

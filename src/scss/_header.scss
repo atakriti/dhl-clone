@@ -2,9 +2,11 @@ header{
     width: 100%;
     .main-header{
         width: 60%;
+         height: 5vw;
         margin: 0 auto;
         display: flex;
         flex-direction: column;
+        justify-content: space-around;
         padding: 1%;
         background:linear-gradient(to right,#fc0, rgb(255, 235, 156));
         
@@ -21,7 +23,7 @@ header{
             }
         }
         a{
-            width: 8vw;
+            width: 7vw;
         height: 100%;        
     }
     ul{
