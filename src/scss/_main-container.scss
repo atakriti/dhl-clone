@@ -66,7 +66,7 @@
             div{
                 width: 32%;
                hr{
-                   border-top: rgb(231, 231, 231) 1px solid;
+                   border-top: rgb(231, 231, 231) 0.1vw solid;
                }
                 
 
@@ -116,21 +116,26 @@
                 margin-top: 5%;
                 div{
                     width: 48%;
-                    &:nth-child(1){
-                       div{
-                        padding: 7.8%;
-                       }
+                    display: flex;
+                    flex-direction: column;
+                    justify-content: space-between;
+                   &:nth-child(1){
+                    div{
+                        padding-bottom: 11%;
                     }
+                   }
                     a{
                         img{
                             width: 100%;
                         }
                     }
                     div{
-                        border: 3px rgb(241, 241, 241) solid;
+                        border: 3px rgb(231, 231, 231) solid;
                         width: 100%;
-                        padding: 4%;
-                         background-color: white;                       
+                        padding: 4%;                        
+                         background-color: white;  
+                             
+
                         form{
                             display: inline-flex;
                             width: 100%;
@@ -245,7 +250,7 @@
             div{
                 width: 32%;
                 hr{
-                    border-top: 1px rgb(219, 219, 219) solid;
+                    border-top: 0.1vw rgb(219, 219, 219) solid;
                 }
                 h1{
                     font-size:1.7vw;
@@ -271,5 +276,12 @@
 
             }
         }
+    }
+}
+// ========================= BODY HR =====================
+.body-hr{
+    hr{
+        border-top: 0.2vw rgb(167, 167, 167) solid;
+        margin: 5% 0;
     }
 }
