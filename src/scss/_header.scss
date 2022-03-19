@@ -14,12 +14,15 @@ header{
             display: flex;
             justify-content: space-between;
             align-self: flex-end;
-            width: 28%;
+            width: 23%;
             a{
                 text-decoration: none;
                 font-size: 0.8vw;
-                width: 50%;
-                text-align: right;
+                width: auto;
+                text-align: center;
+                &:nth-child(1){
+                    border-bottom: 2px red solid;
+                }
             }
         }
         a{
