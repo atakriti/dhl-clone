@@ -14,7 +14,50 @@
                font-size: 1vw;
            }
         }
+        //  ================ three pics =======
+        .three-pics{
+            display: flex;
+            justify-content: space-between;
+            div{
+                width: 32%;
+                a{
+                    img{
+                        width: 100%;
+                        border-bottom: 4px red solid;
 
-        
+                    }
+                }
+                div{
+                    width: 100%;
+                    padding: 3%;
+                    display: flex;
+                    flex-direction: column;
+                    justify-content: space-between;
+                    height: 10vw;
+                    h2{
+                        font-size: 1.2vw;
+                        color: $red;
+                        i{
+                            font-size: 0.8vw;
+                            margin-left: 3%;
+                        }
+                    }
+                    p{
+                        font-size: 1vw;
+                    }
+                    button{
+                        width: 100%;
+                        border: 1px gray solid;
+                        background-color: transparent;
+                        color: $red;
+                        font-weight: bold;
+                        font-size: 1vw;
+                        padding: 1.5% 0;
+                        border-radius: 5px;
+                    }
+                }
+            }
+        }
+
     }
 }
