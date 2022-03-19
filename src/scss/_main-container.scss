@@ -130,7 +130,7 @@
                         }
                     }
                     div{
-                        border: 3px rgb(231, 231, 231) solid;
+                        border: 0.3vw rgb(231, 231, 231) solid;
                         width: 100%;
                         padding: 4%;                        
                          background-color: white;  
@@ -279,9 +279,3 @@
     }
 }
 // ========================= BODY HR =====================
-.body-hr{
-    hr{
-        border-top: 0.2vw rgb(167, 167, 167) solid;
-        margin: 5% 0;
-    }
-}
