@@ -2,14 +2,14 @@ header{
     width: 100%;
     .main-header{
         width: 60%;
-         height: 5vw;
+        //  height: 5vw;
         margin: 0 auto;
         display: flex;
         flex-direction: column;
         justify-content: space-around;
-        padding: 1%;
+        padding: 1% 1% 0 1%;
         background:linear-gradient(to right,#fc0, rgb(255, 235, 156));
-        
+        // top links ====================================
         .top-links{
             display: flex;
             justify-content: space-between;
@@ -19,9 +19,15 @@ header{
                 text-decoration: none;
                 font-size: 0.8vw;
                 width: auto;
-                text-align: center;
+                text-align: center;   
+                transition: 0.5s;
+
                 &:nth-child(1){
                     border-bottom: 0.2vw red solid;
+                }
+                &:hover{
+                    background-color: white;
+                    color: $red;
                 }
             }
         }
@@ -29,6 +35,7 @@ header{
             width: 7vw;
         height: 100%;        
     }
+    // nav ================================
     ul{
         align-self: flex-end;
         display: flex;
@@ -37,9 +44,13 @@ header{
         li{
             list-style: none;
             width: 21%;
+            padding: 1%;
             display: flex;
             justify-content: center;
             align-items: center;
+            cursor: pointer;
+            transition: 0.5s;
+
             a{
                 text-decoration: none;
                 font-size: 0.9vw;
@@ -76,6 +87,12 @@ header{
                     margin-left: 10%;
                 }
 
+            }
+            &:hover{
+                background-color: white;
+                a{
+                    color: $red;
+                }
             }
         }
        

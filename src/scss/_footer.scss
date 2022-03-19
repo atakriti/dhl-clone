@@ -21,6 +21,10 @@ footer{
                 font-size: 1vw;
                 color: black;
                 margin-top: 10%;
+                &:hover{
+                    color: $red;
+                    transition: 0.5s;
+                }
             }
             .footer-social{
                 display: flex;
@@ -37,6 +41,12 @@ footer{
                     margin-top: 5%;
                     text-align: center;
                     padding: 8% 0;
+                    cursor: pointer;
+                    transition: 0.5s;
+                    &:hover{
+                        border: 0.1vw $yellow solid;
+                        color: $yellow;
+                    }
                 }
 
             }
@@ -68,6 +78,10 @@ footer{
                 font-size: 0.9vw;
                 text-decoration: none;
                 color: black;
+                transition: 0.5s;
+                &:hover{
+                    color: $red;
+                }
             }            
         }
         h2{
