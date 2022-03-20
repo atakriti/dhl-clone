@@ -867,15 +867,6 @@ footer .last-footer h2 {
     font-size: 1.2vw;
   }
 }
-@media only screen and (min-width: 740px) and (orientation: landscape) {
-  header .main-header .ul-container ul {
-    width: 80%;
-  }
-  header .main-header .ul-container ul li {
-    width: 23%;
-    border: 2px red solid;
-  }
-}
 * {
   margin: 0;
   padding: 0;
