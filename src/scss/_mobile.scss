@@ -4,7 +4,7 @@
             width: 100%;
             margin: 0;
             .top-links{
-                width: 35%;
+                width: 50%;
                 a{
                     font-size: $mobile-fs;
                     width: 50%;
@@ -18,7 +18,7 @@
 
             .ul-container{
                 ul{
-                    width: 80%;
+                    width: 80vw;
                     li{
                         width: 23%;
                        
@@ -108,6 +108,7 @@
                         }
                         button{
                             font-size: $mobile-fs;
+                            width: 35%;
                         }
                     }
                 }
@@ -150,7 +151,7 @@
 
             // Three pics ==================
             .three-pics{
-                width: 70%;
+                width: 90%;
                 margin: 0 auto;
                 flex-wrap: wrap;
                 div{
@@ -166,12 +167,15 @@
 
                         h2{
                             font-size: calc($mobile-fs + 0.5vw);
+                            margin-bottom: 5%;
                             i{
                                 font-size: $mobile-i;
                             }
                         }
                         p{
                             font-size: $mobile-fs;
+                            margin-bottom: 5%;
+
                         }
                         button{
                             font-size: $mobile-fs;
@@ -181,7 +185,7 @@
             }
             // HR LINKS =====================
             .hr-links{
-                width: 70%;
+                width: 90%;
                 margin: 10% auto;
                 flex-wrap: wrap;
                 div{
@@ -215,7 +219,7 @@
                 .two-pics{
                     div{
                         div{
-                             height: 13vw;
+                             height: 18vw;
                             form{
                                 height: 3vw;
                                 input{
@@ -252,7 +256,7 @@
                     font-size: $mobile-title-h1;
                 }
                 .container{
-                    width: 70%;
+                    width: 90%;
                     flex-wrap: wrap;
                     div{
                         width: 100%;
@@ -271,6 +275,7 @@
                 }
                 button{
                     font-size: $mobile-fs;
+                    width: 70%;
                 }
             }
         }
@@ -284,6 +289,8 @@
                         font-size: $mobile-title-p;
                     }
                     a{
+                        margin-bottom: 5%;
+
                         p{
                             font-size: $mobile-fs;
                         }
@@ -306,6 +313,8 @@
                 }
                 a{
                     font-size: $mobile-fs;
+                    margin-bottom: 5%;
+
                 }
 
                 .footer-social{
@@ -329,7 +338,7 @@
 
             }
             h2{
-                font-size: 1.2vw;
+                font-size: 1.5vw;
             }
         }
     }
