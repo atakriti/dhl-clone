@@ -346,7 +346,6 @@ header .main-header .ul-container #shipping-container .exit, header .main-header
   width: 48%;
   display: flex;
   flex-direction: column;
-  justify-content: space-between;
   overflow: hidden;
 }
 .upper .middle .middle-container .two-pics div:nth-child(1) div {
@@ -400,7 +399,7 @@ header .main-header .ul-container #shipping-container .exit, header .main-header
 }
 .upper .middle .middle-container .two-pics div div h1 {
   font-size: 1vw;
-  margin-bottom: 1%;
+  margin-bottom: 5%;
 }
 .upper .middle .middle-container .two-pics div div p {
   font-size: 0.9vw;
@@ -408,6 +407,7 @@ header .main-header .ul-container #shipping-container .exit, header .main-header
   align-items: center;
   cursor: pointer;
   transition: 0.5s;
+  margin-bottom: 5%;
 }
 .upper .middle .middle-container .two-pics div div p i {
   font-size: 0.8vw;
@@ -437,6 +437,7 @@ header .main-header .ul-container #shipping-container .exit, header .main-header
 }
 .down .top-section .top-section-container h1 {
   font-size: 1.8vw;
+  text-align: center;
 }
 .down .top-section .top-section-container .container {
   display: flex;
@@ -629,7 +630,7 @@ footer .last-footer h2 {
     margin-left: 2%;
   }
   header .main-header .ul-container ul {
-    width: 80vw;
+    width: 100%;
   }
   header .main-header .ul-container ul li {
     width: 23%;
@@ -739,7 +740,7 @@ footer .last-footer h2 {
   }
   .upper .main-upper .three-pics div {
     width: 100%;
-    margin-bottom: 4%;
+    margin-bottom: 6%;
   }
   .upper .main-upper .three-pics div a img {
     border-bottom: 0.5vw red solid;
@@ -786,7 +787,7 @@ footer .last-footer h2 {
     font-size: 3vw;
   }
   .upper .middle .middle-container .two-pics div div {
-    height: 18vw;
+    height: 23vw;
   }
   .upper .middle .middle-container .two-pics div div form {
     height: 3vw;
