@@ -44,7 +44,6 @@ header .main-header .ul-container ul {
   display: flex;
   justify-content: space-between;
   width: 40vw;
-  border: 1px red solid;
 }
 header .main-header .ul-container ul li {
   list-style: none;
@@ -619,26 +618,26 @@ footer .last-footer h2 {
     margin: 0;
   }
   header .main-header .top-links {
-    width: 35%;
+    width: 50%;
   }
   header .main-header .top-links a {
-    font-size: 1.7vw;
+    font-size: 2.2vw;
     width: 50%;
   }
   header .main-header a {
     width: 14vw;
   }
   header .main-header .ul-container ul {
-    width: 80%;
+    width: 80vw;
   }
   header .main-header .ul-container ul li {
     width: 23%;
   }
   header .main-header .ul-container ul li a {
-    font-size: 1.7vw;
+    font-size: 2.2vw;
   }
   header .main-header .ul-container ul li i {
-    font-size: 1.5vw;
+    font-size: 1.9vw;
   }
   header .main-header .ul-container #shipping-container, header .main-header .ul-container #delivery-container {
     flex-wrap: wrap;
@@ -659,10 +658,10 @@ footer .last-footer h2 {
     width: 100%;
   }
   header .main-header .ul-container #shipping-container div h2, header .main-header .ul-container #delivery-container div h2 {
-    font-size: 3vw;
+    font-size: 4vw;
   }
   header .main-header .ul-container #shipping-container div li a, header .main-header .ul-container #delivery-container div li a {
-    font-size: 2vw;
+    font-size: 3vw;
   }
   header .main-header .ul-container #shipping-container .exit, header .main-header .ul-container #delivery-container .exit {
     display: block;
@@ -675,7 +674,7 @@ footer .last-footer h2 {
     justify-content: center;
     align-items: center;
     text-decoration: none;
-    font-size: 3vw;
+    font-size: 4vw;
     color: black;
     margin: 0 auto;
     animation: back 1s infinite alternate;
@@ -697,42 +696,43 @@ footer .last-footer h2 {
     height: 30vw;
   }
   .upper .main-upper .bg-form .bg .bg-text p {
-    font-size: 2vw;
-  }
-  .upper .main-upper .bg-form .bg .bg-text h1 {
     font-size: 3vw;
   }
+  .upper .main-upper .bg-form .bg .bg-text h1 {
+    font-size: 4vw;
+  }
   .upper .main-upper .bg-form .bg .bg-text button {
-    font-size: 1.7vw;
+    font-size: 2.2vw;
+    width: 35%;
   }
   .upper .main-upper .bg-form .form-container p {
-    font-size: 1.7vw;
+    font-size: 2.2vw;
   }
   .upper .main-upper .bg-form .form-container form {
     width: 60%;
     height: 4vw;
   }
   .upper .main-upper .bg-form .form-container form input {
-    font-size: 1.7vw;
+    font-size: 2.2vw;
   }
   .upper .main-upper .bg-form .form-container form input::placeholder {
-    font-size: 1.7vw;
+    font-size: 2.2vw;
   }
   .upper .main-upper .bg-form .form-container form button {
     width: 20%;
-    font-size: 1.7vw;
+    font-size: 2.2vw;
   }
   .upper .main-upper .bg-form .form-container form button i {
-    font-size: 1.5vw;
+    font-size: 1.9vw;
   }
   .upper .main-upper .middle-text h1 {
-    font-size: 3vw;
+    font-size: 4vw;
   }
   .upper .main-upper .middle-text p {
-    font-size: 2vw;
+    font-size: 3vw;
   }
   .upper .main-upper .three-pics {
-    width: 70%;
+    width: 90%;
     margin: 0 auto;
     flex-wrap: wrap;
   }
@@ -747,19 +747,21 @@ footer .last-footer h2 {
     height: 20vw;
   }
   .upper .main-upper .three-pics div div h2 {
-    font-size: 2.2vw;
+    font-size: 2.7vw;
+    margin-bottom: 5%;
   }
   .upper .main-upper .three-pics div div h2 i {
-    font-size: 1.5vw;
+    font-size: 1.9vw;
   }
   .upper .main-upper .three-pics div div p {
-    font-size: 1.7vw;
+    font-size: 2.2vw;
+    margin-bottom: 5%;
   }
   .upper .main-upper .three-pics div div button {
-    font-size: 1.7vw;
+    font-size: 2.2vw;
   }
   .upper .main-upper .hr-links {
-    width: 70%;
+    width: 90%;
     margin: 10% auto;
     flex-wrap: wrap;
   }
@@ -768,50 +770,50 @@ footer .last-footer h2 {
     margin-bottom: 5%;
   }
   .upper .main-upper .hr-links div a p {
-    font-size: 1.7vw;
+    font-size: 2.2vw;
   }
   .upper .main-upper .hr-links div a i {
-    font-size: 1.5vw;
+    font-size: 1.9vw;
   }
   .upper .middle .middle-container {
     width: 90%;
   }
   .upper .middle .middle-container .middle-text h1 {
-    font-size: 3vw;
+    font-size: 4vw;
   }
   .upper .middle .middle-container .middle-text p {
-    font-size: 2vw;
+    font-size: 3vw;
   }
   .upper .middle .middle-container .two-pics div div {
-    height: 13vw;
+    height: 18vw;
   }
   .upper .middle .middle-container .two-pics div div form {
     height: 3vw;
   }
   .upper .middle .middle-container .two-pics div div form input {
-    font-size: 1.7vw;
+    font-size: 2.2vw;
   }
   .upper .middle .middle-container .two-pics div div form button i {
-    font-size: 1.5vw;
+    font-size: 1.9vw;
   }
   .upper .middle .middle-container .two-pics div div h1 {
-    font-size: 1.7vw;
+    font-size: 2.2vw;
   }
   .upper .middle .middle-container .two-pics div div p {
-    font-size: 1.7vw;
+    font-size: 2.2vw;
   }
   .upper .middle .middle-container .two-pics div div p i {
-    font-size: 1.5vw;
+    font-size: 1.9vw;
   }
 
   .down .top-section .top-section-container {
     width: 90%;
   }
   .down .top-section .top-section-container h1 {
-    font-size: 3vw;
+    font-size: 4vw;
   }
   .down .top-section .top-section-container .container {
-    width: 70%;
+    width: 90%;
     flex-wrap: wrap;
   }
   .down .top-section .top-section-container .container div {
@@ -819,53 +821,58 @@ footer .last-footer h2 {
     margin-bottom: 5%;
   }
   .down .top-section .top-section-container .container div h2 {
-    font-size: 2.2vw;
+    font-size: 2.7vw;
   }
   .down .top-section .top-section-container .container div h2 i {
-    font-size: 1.7vw;
+    font-size: 2.2vw;
   }
   .down .top-section .top-section-container .container div p {
-    font-size: 1.7vw;
+    font-size: 2.2vw;
   }
   .down .top-section .top-section-container button {
-    font-size: 1.7vw;
+    font-size: 2.2vw;
+    width: 70%;
   }
   .down .bottom-section .bottom-section-container {
     width: 90%;
   }
   .down .bottom-section .bottom-section-container div h1 {
-    font-size: 2vw;
+    font-size: 3vw;
+  }
+  .down .bottom-section .bottom-section-container div a {
+    margin-bottom: 5%;
   }
   .down .bottom-section .bottom-section-container div a p {
-    font-size: 1.7vw;
+    font-size: 2.2vw;
   }
   .down .bottom-section .bottom-section-container div a i {
-    font-size: 1.5vw;
+    font-size: 1.9vw;
   }
 
   footer .footer-top {
     width: 90%;
   }
   footer .footer-top div h1 {
-    font-size: 2vw;
+    font-size: 3vw;
   }
   footer .footer-top div a {
-    font-size: 1.7vw;
+    font-size: 2.2vw;
+    margin-bottom: 5%;
   }
   footer .footer-top div .footer-social i {
-    font-size: 1.7vw;
+    font-size: 2.2vw;
   }
   footer .last-footer {
     width: 90%;
   }
   footer .last-footer h1 {
-    font-size: 1.7vw;
+    font-size: 2.2vw;
   }
   footer .last-footer .footer-links a {
-    font-size: 1.4vw;
+    font-size: 1.9vw;
   }
   footer .last-footer h2 {
-    font-size: 1.2vw;
+    font-size: 1.5vw;
   }
 }
 * {
