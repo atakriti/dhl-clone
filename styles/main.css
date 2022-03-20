@@ -343,6 +343,7 @@ header .main-header .ul-container #shipping-container .exit, header .main-header
 .upper .middle .middle-container .two-pics {
   display: flex;
   justify-content: space-between;
+  flex-wrap: wrap;
   margin-top: 5%;
 }
 .upper .middle .middle-container .two-pics div {
@@ -789,8 +790,16 @@ footer .last-footer h2 {
   .upper .middle .middle-container .middle-text p {
     font-size: 3vw;
   }
+  .upper .middle .middle-container .two-pics {
+    width: 90%;
+    margin: 5% auto;
+  }
+  .upper .middle .middle-container .two-pics div {
+    width: 100%;
+    margin-bottom: 5%;
+  }
   .upper .middle .middle-container .two-pics div div form {
-    height: 3vw;
+    height: 5vw;
   }
   .upper .middle .middle-container .two-pics div div form input {
     font-size: 2.2vw;
