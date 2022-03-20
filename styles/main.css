@@ -34,13 +34,18 @@ header .main-header a {
   width: 7vw;
   height: 100%;
 }
-header .main-header ul {
+header .main-header .ul-container {
+  display: flex;
+  justify-content: flex-end;
+  position: relative;
+}
+header .main-header .ul-container ul {
   align-self: flex-end;
   display: flex;
   justify-content: space-between;
   width: 60%;
 }
-header .main-header ul li {
+header .main-header .ul-container ul li {
   list-style: none;
   width: 21%;
   padding: 1%;
@@ -50,45 +55,85 @@ header .main-header ul li {
   cursor: pointer;
   transition: 0.5s;
 }
-header .main-header ul li a {
+header .main-header .ul-container ul li a {
   text-decoration: none;
   font-size: 0.9vw;
   height: auto;
   width: auto;
 }
-header .main-header ul li i {
+header .main-header .ul-container ul li i {
   font-size: 0.8vw;
 }
-header .main-header ul li:nth-child(4) {
+header .main-header .ul-container ul li:nth-child(4) {
   width: 8%;
   text-align: center;
 }
-header .main-header ul li:nth-child(4) i {
+header .main-header .ul-container ul li:nth-child(4) i {
   margin-right: 14%;
 }
-header .main-header ul li:nth-child(5) {
+header .main-header .ul-container ul li:nth-child(5) {
   width: 15%;
 }
-header .main-header ul li:nth-child(5) i {
+header .main-header .ul-container ul li:nth-child(5) i {
   margin-right: 14%;
 }
-header .main-header ul li:nth-child(6) {
+header .main-header .ul-container ul li:nth-child(6) {
   width: 8%;
   display: flex;
   justify-content: space-between;
 }
-header .main-header ul li:nth-child(6) a {
+header .main-header .ul-container ul li:nth-child(6) a {
   color: #d40511;
   font-weight: bold;
 }
-header .main-header ul li:nth-child(6) i {
+header .main-header .ul-container ul li:nth-child(6) i {
   margin-left: 10%;
 }
-header .main-header ul li:hover {
+header .main-header .ul-container ul li:hover {
   background-color: white;
 }
-header .main-header ul li:hover a {
+header .main-header .ul-container ul li:hover a {
   color: #d40511;
+}
+header .main-header .ul-container #shipping-container, header .main-header .ul-container #delivery-container {
+  background-color: white;
+  width: 100%;
+  position: absolute;
+  top: 100%;
+  display: flex;
+  justify-content: space-between;
+  padding: 1%;
+  visibility: hidden;
+}
+header .main-header .ul-container #shipping-container div, header .main-header .ul-container #delivery-container div {
+  width: 24%;
+}
+header .main-header .ul-container #shipping-container div h2, header .main-header .ul-container #delivery-container div h2 {
+  font-size: 1vw;
+  color: #d40511;
+  margin-bottom: 5%;
+}
+header .main-header .ul-container #shipping-container div li, header .main-header .ul-container #delivery-container div li {
+  list-style: none;
+  border-bottom: 0.1vw rgba(0, 0, 0, 0.164) solid;
+  margin-bottom: 5%;
+  cursor: pointer;
+  padding: 5%;
+  border-radius: 5px;
+}
+header .main-header .ul-container #shipping-container div li a, header .main-header .ul-container #delivery-container div li a {
+  text-decoration: none;
+  font-size: 0.9vw;
+  color: black;
+}
+header .main-header .ul-container #shipping-container div li:hover, header .main-header .ul-container #delivery-container div li:hover {
+  background-color: red;
+}
+header .main-header .ul-container #shipping-container div li:hover a, header .main-header .ul-container #delivery-container div li:hover a {
+  color: white;
+}
+header .main-header .ul-container #shipping-container .exit, header .main-header .ul-container #delivery-container .exit {
+  display: none;
 }
 
 .upper {
@@ -582,17 +627,59 @@ footer .last-footer h2 {
   header .main-header a {
     width: 14vw;
   }
-  header .main-header ul {
-    width: 70%;
+  header .main-header .ul-container ul {
+    width: 80%;
   }
-  header .main-header ul li {
-    width: 22%;
+  header .main-header .ul-container ul li {
+    width: 23%;
   }
-  header .main-header ul li a {
+  header .main-header .ul-container ul li a {
     font-size: 1.7vw;
   }
-  header .main-header ul li i {
+  header .main-header .ul-container ul li i {
     font-size: 1.5vw;
+  }
+  header .main-header .ul-container #shipping-container, header .main-header .ul-container #delivery-container {
+    flex-wrap: wrap;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    overflow: scroll;
+  }
+  header .main-header .ul-container #shipping-container div, header .main-header .ul-container #delivery-container div {
+    width: 100%;
+  }
+  header .main-header .ul-container #shipping-container div h2, header .main-header .ul-container #delivery-container div h2 {
+    font-size: 3vw;
+  }
+  header .main-header .ul-container #shipping-container div li a, header .main-header .ul-container #delivery-container div li a {
+    font-size: 2vw;
+  }
+  header .main-header .ul-container #shipping-container .exit, header .main-header .ul-container #delivery-container .exit {
+    display: block;
+    border: 0.2vw red solid;
+    border-radius: 10px;
+    padding: 1%;
+    height: 6vw;
+    width: 20%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    font-size: 3vw;
+    color: black;
+    margin: 0 auto;
+    animation: back 1s infinite alternate;
+  }
+  @keyframes back {
+    from {
+      box-shadow: 0 0 0 red;
+    }
+    to {
+      box-shadow: 0 0 20px red;
+    }
   }
 
   .upper .main-upper {

@@ -17,14 +17,76 @@
                 <a href="#">Business Customers</a>
             </div>
             <a href="#"><img src="./images/dhl-logo.svg" alt=""></a>
-            <ul>
-                <li><a href="#">Shipping parcels</a></li>
-                <li><a href="#">Delivery services</a></li>
-                <li><a href="#">Customer Service</a></li>
-                <li><a href="#"><i class="fa-solid fa-magnifying-glass"></i></a></li>
-                <li><i class="fa-solid fa-user"></i><a href="#">Login</a></li>
-                <li><a href="#">EN</a><i class="fa-solid fa-chevron-down"></i></li>
-            </ul>
+           <div class="ul-container">
+                <ul>
+                    <li title="Click for more Infos" onclick="shipping()"><a href="#">Shipping parcels</a></li>
+                    <li onclick="delivery()"><a href="#">Delivery services</a></li>
+                    <li><a href="#">Customer Service</a></li>
+                    <li><a href="#"><i class="fa-solid fa-magnifying-glass"></i></a></li>
+                    <li><i class="fa-solid fa-user"></i><a href="#">Login</a></li>
+                    <li><a href="#">EN</a><i class="fa-solid fa-chevron-down"></i></li>
+                </ul>
+                <div id="shipping-container">
+                    <!-- first one  -->
+                    <div>
+                        <h2>Online franking</h2>
+                       <li><a href="#">Parcel Postage</a></li>
+                       <li><a href="#">Economy Sets</a></li>
+                       <li><a href="#">Pick-up order</a></li>
+                       <li><a href="#">How it works</a></li>
+                    </div>
+                    <!-- second one -->
+                    <div>
+                        <h2>Shipping nationwide</h2>
+                        <li><a href="#">Domestic prices</a></li>
+                        <li><a href="#">Shipments up to 2 kg</a></li>
+                        <li><a href="#">Päckchen</a></li>
+                        <li><a href="#">Paket</a></li>
+                    </div>
+                    <!-- third one -->
+                    <div>
+                        <h2>Shipping worldwide</h2>
+                        <li><a href="#">International prices</a></li>
+                        <li><a href="#">Päckchen</a></li>
+                        <li><a href="#">Paket</a></li>
+                        <li><a href="#">ExpressEasy</a></li>
+                    </div>
+                    <!-- fourth one  -->
+                    <div>
+                        <h2>Dropping off parcels</h2>
+                        <li><a href="#">DHL Finder</a></li>
+                        <li><a href="#">Scheduled Pick-up</a></li>
+                        <li><a href="#">Unscheduled pick-up</a></li>
+                        <li><a href="#">Packaging correctly</a></li>
+                    </div>
+                    <a class="exit" href="./index.html">Exit</a>
+                </div>
+
+
+                <div id="delivery-container">
+                    <!-- first one  -->
+                    <div>
+                        <h2>Shipment tracking</h2>
+                       <li><a href="#">Parcel notification</a></li>
+                       <li><a href="#">Delivery notification</a></li>
+                       <li><a href="#">Live tracking</a></li>                         
+                    </div>
+                    <!-- second one -->
+                    <div>
+                        <h2>Delivery at home</h2>
+                        <li><a href="#">Preferred location</a></li>
+                        <li><a href="#">Preferred neighbour</a></li>
+                        <li><a href="#">Preferred day</a></li>
+                    </div>
+                    <!-- third one -->
+                    <div>
+                        <h2>Your Pickup Location</h2>
+                        <li><a href="#">DHL Packstation</a></li>
+                        <li><a href="#">Postal outlet/Parcelshop</a></li>
+                        <li><a href="#">Parcel redirection</a></li>
+                    </div>
+                    <a class="exit" href="./index.html">Back to main</a>
+            </div>
         </div>
     </header>
     <section class="upper">
@@ -310,5 +372,6 @@
             <h2>2022 © DHL Paket GmbH - All rights reserved.</h2>
         </div>
     </footer>
+    <script src="./js/main.js"></script>
 </body>
 </html>
