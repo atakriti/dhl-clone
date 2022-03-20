@@ -14,7 +14,7 @@ header .main-header .top-links {
   display: flex;
   justify-content: space-between;
   align-self: flex-end;
-  width: 30%;
+  width: 20vw;
 }
 header .main-header .top-links a {
   text-decoration: none;
@@ -618,14 +618,15 @@ footer .last-footer h2 {
     margin: 0;
   }
   header .main-header .top-links {
-    width: 50%;
+    width: 45vw;
   }
   header .main-header .top-links a {
     font-size: 2.2vw;
     width: 50%;
   }
   header .main-header a {
-    width: 14vw;
+    width: 16vw;
+    margin-left: 2%;
   }
   header .main-header .ul-container ul {
     width: 80vw;
