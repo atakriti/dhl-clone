@@ -43,7 +43,8 @@ header .main-header .ul-container ul {
   align-self: flex-end;
   display: flex;
   justify-content: space-between;
-  width: 60%;
+  width: 40vw;
+  border: 1px red solid;
 }
 header .main-header .ul-container ul li {
   list-style: none;
