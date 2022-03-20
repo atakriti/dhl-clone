@@ -3,7 +3,7 @@ function shipping() {
     if (element.style.visibility == "hidden") {
         element.style.visibility = "visible";
         element.style.transform = "translate(0)";
-        element.style.transition = "5s";
+        
 
     } else {
         element.style.visibility = "hidden";

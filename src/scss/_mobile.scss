@@ -21,12 +21,14 @@
                     width: 80%;
                     li{
                         width: 23%;
+                       
                         a{
                             font-size: $mobile-fs;
                         }
                         i{
                             font-size: $mobile-i;
                         }
+                       
                     }
                 }
 
@@ -34,13 +36,14 @@
                     flex-wrap: wrap;
                     position: fixed;
                     padding-left: 4%;
+                    padding-bottom: 7%;
                     top: 0;
                     left: 0;
                     right: 0;
                     bottom: 0;
                     width: 70%;
                     overflow: scroll;
-                   transition: 2.5s;
+                   transition: 2s;
                    transform: translateX(-100%);
                    box-shadow: 150px 0 140px rgba(0, 0, 0, 0.651);
                    
