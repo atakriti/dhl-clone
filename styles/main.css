@@ -573,19 +573,26 @@ footer .last-footer h2 {
     margin: 0;
   }
   header .main-header .top-links {
-    width: 27%;
+    width: 35%;
   }
   header .main-header .top-links a {
-    font-size: 1.5vw;
+    font-size: 1.7vw;
+    width: 50%;
   }
   header .main-header a {
     width: 14vw;
   }
+  header .main-header ul {
+    width: 70%;
+  }
+  header .main-header ul li {
+    width: 22%;
+  }
   header .main-header ul li a {
-    font-size: 1.5vw;
+    font-size: 1.7vw;
   }
   header .main-header ul li i {
-    font-size: 1.4vw;
+    font-size: 1.5vw;
   }
 
   .upper .main-upper {
@@ -602,27 +609,27 @@ footer .last-footer h2 {
     font-size: 3vw;
   }
   .upper .main-upper .bg-form .bg .bg-text button {
-    font-size: 1.5vw;
+    font-size: 1.7vw;
   }
   .upper .main-upper .bg-form .form-container p {
-    font-size: 1.5vw;
+    font-size: 1.7vw;
   }
   .upper .main-upper .bg-form .form-container form {
     width: 60%;
-    height: 3vw;
+    height: 4vw;
   }
   .upper .main-upper .bg-form .form-container form input {
-    font-size: 1.5vw;
+    font-size: 1.7vw;
   }
   .upper .main-upper .bg-form .form-container form input::placeholder {
-    font-size: 1.5vw;
+    font-size: 1.7vw;
   }
   .upper .main-upper .bg-form .form-container form button {
     width: 20%;
-    font-size: 1.5vw;
+    font-size: 1.7vw;
   }
   .upper .main-upper .bg-form .form-container form button i {
-    font-size: 1.4vw;
+    font-size: 1.5vw;
   }
   .upper .main-upper .middle-text h1 {
     font-size: 3vw;
@@ -646,16 +653,16 @@ footer .last-footer h2 {
     height: 20vw;
   }
   .upper .main-upper .three-pics div div h2 {
-    font-size: 2vw;
+    font-size: 2.2vw;
   }
   .upper .main-upper .three-pics div div h2 i {
-    font-size: 1.4vw;
+    font-size: 1.5vw;
   }
   .upper .main-upper .three-pics div div p {
-    font-size: 1.5vw;
+    font-size: 1.7vw;
   }
   .upper .main-upper .three-pics div div button {
-    font-size: 1.5vw;
+    font-size: 1.7vw;
   }
   .upper .main-upper .hr-links {
     width: 70%;
@@ -667,10 +674,10 @@ footer .last-footer h2 {
     margin-bottom: 5%;
   }
   .upper .main-upper .hr-links div a p {
-    font-size: 1.5vw;
+    font-size: 1.7vw;
   }
   .upper .main-upper .hr-links div a i {
-    font-size: 1.4vw;
+    font-size: 1.5vw;
   }
   .upper .middle .middle-container {
     width: 90%;
@@ -688,19 +695,19 @@ footer .last-footer h2 {
     height: 3vw;
   }
   .upper .middle .middle-container .two-pics div div form input {
-    font-size: 1.5vw;
+    font-size: 1.7vw;
   }
   .upper .middle .middle-container .two-pics div div form button i {
-    font-size: 1.4vw;
+    font-size: 1.5vw;
   }
   .upper .middle .middle-container .two-pics div div h1 {
-    font-size: 1.5vw;
+    font-size: 1.7vw;
   }
   .upper .middle .middle-container .two-pics div div p {
-    font-size: 1.5vw;
+    font-size: 1.7vw;
   }
   .upper .middle .middle-container .two-pics div div p i {
-    font-size: 1.4vw;
+    font-size: 1.5vw;
   }
 
   .down .top-section .top-section-container {
@@ -718,16 +725,16 @@ footer .last-footer h2 {
     margin-bottom: 5%;
   }
   .down .top-section .top-section-container .container div h2 {
-    font-size: 2vw;
+    font-size: 2.2vw;
   }
   .down .top-section .top-section-container .container div h2 i {
-    font-size: 1.5vw;
+    font-size: 1.7vw;
   }
   .down .top-section .top-section-container .container div p {
-    font-size: 1.5vw;
+    font-size: 1.7vw;
   }
   .down .top-section .top-section-container button {
-    font-size: 1.5vw;
+    font-size: 1.7vw;
   }
   .down .bottom-section .bottom-section-container {
     width: 90%;
@@ -736,10 +743,10 @@ footer .last-footer h2 {
     font-size: 2vw;
   }
   .down .bottom-section .bottom-section-container div a p {
-    font-size: 1.5vw;
+    font-size: 1.7vw;
   }
   .down .bottom-section .bottom-section-container div a i {
-    font-size: 1.4vw;
+    font-size: 1.5vw;
   }
 
   footer .footer-top {
@@ -749,19 +756,19 @@ footer .last-footer h2 {
     font-size: 2vw;
   }
   footer .footer-top div a {
-    font-size: 1.5vw;
+    font-size: 1.7vw;
   }
   footer .footer-top div .footer-social i {
-    font-size: 1.5vw;
+    font-size: 1.7vw;
   }
   footer .last-footer {
     width: 90%;
   }
   footer .last-footer h1 {
-    font-size: 1.5vw;
+    font-size: 1.7vw;
   }
   footer .last-footer .footer-links a {
-    font-size: 1.2vw;
+    font-size: 1.4vw;
   }
   footer .last-footer h2 {
     font-size: 1.2vw;
