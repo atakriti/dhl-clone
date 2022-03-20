@@ -6,7 +6,7 @@
 
 ## Your App name
 
-**[Test this app yourself](atakriti.github.io/dhl-clone/)**
+**[Test this app yourself](https://atakriti.github.io/dhl-clone/)**
 
 ---
 
