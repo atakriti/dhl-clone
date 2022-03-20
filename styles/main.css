@@ -642,11 +642,16 @@ footer .last-footer h2 {
   header .main-header .ul-container #shipping-container, header .main-header .ul-container #delivery-container {
     flex-wrap: wrap;
     position: fixed;
+    padding-left: 4%;
     top: 0;
     left: 0;
     right: 0;
     bottom: 0;
+    width: 70%;
     overflow: scroll;
+    transition: 2.5s;
+    transform: translateX(-100%);
+    box-shadow: 150px 0 140px rgba(0, 0, 0, 0.651);
   }
   header .main-header .ul-container #shipping-container div, header .main-header .ul-container #delivery-container div {
     width: 100%;
@@ -661,9 +666,9 @@ footer .last-footer h2 {
     display: block;
     border: 0.2vw red solid;
     border-radius: 10px;
-    padding: 1%;
+    padding: 2%;
     height: 6vw;
-    width: 20%;
+    width: auto;
     display: flex;
     justify-content: center;
     align-items: center;
