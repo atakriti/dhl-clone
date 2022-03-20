@@ -1,12 +1,14 @@
-@media only screen and (max-width:700px) {
+@media only screen and (max-width:800px) {
     header{
         .main-header{
             width: 100%;
             margin: 0;
             .top-links{
-                width: 27%;
+                width: 35%;
                 a{
                     font-size: $mobile-fs;
+                    width: 50%;
+                   
                 }
             }
             a{
@@ -15,7 +17,9 @@
             // nav ===========
 
             ul{
+                width: 70%;
                 li{
+                    width: 22%;
                     a{
                         font-size: $mobile-fs;
                     }
@@ -57,7 +61,7 @@
                     }
                     form{
                         width: 60%;
-                        height: 3vw;
+                        height: 4vw;
                         input{
                             
                             font-size: $mobile-fs;
