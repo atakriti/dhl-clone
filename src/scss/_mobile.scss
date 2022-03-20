@@ -219,11 +219,15 @@
                     }
                 }
                 .two-pics{
+                    width: 90%;
+                    margin: 5% auto;
                     div{
+                        width: 100%;
+                        margin-bottom: 5%;
                         div{
                             
                             form{
-                                height: 3vw;
+                                height: 5vw;
                                 input{
                                     font-size: $mobile-fs;
                                 }
