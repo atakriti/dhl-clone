@@ -16,15 +16,64 @@
             }
             // nav ===========
 
-            ul{
-                width: 70%;
-                li{
-                    width: 22%;
-                    a{
-                        font-size: $mobile-fs;
+            .ul-container{
+                ul{
+                    width: 80%;
+                    li{
+                        width: 23%;
+                        a{
+                            font-size: $mobile-fs;
+                        }
+                        i{
+                            font-size: $mobile-i;
+                        }
                     }
-                    i{
-                        font-size: $mobile-i;
+                }
+
+                #shipping-container , #delivery-container{
+                    flex-wrap: wrap;
+                    position: fixed;
+                    top: 0;
+                    left: 0;
+                    right: 0;
+                    bottom: 0;
+                    overflow: scroll;
+                    div{
+                        width: 100%;
+                        h2{
+                            font-size: $mobile-title-h1;
+                        }
+                        li{
+                            a{
+                                font-size: $mobile-title-p;
+
+                            }
+                        }
+                    }
+                    .exit{
+                        display: block;
+                        border: 0.2vw red solid;
+                        border-radius: 10px;
+                        padding: 1%;
+                        height: 6vw;
+                        width: 20%;
+                        display: flex;
+                        justify-content: center;
+                        align-items: center;
+                        text-decoration: none;
+                        font-size: $mobile-title-h1;
+                        color: black;
+                        margin: 0 auto;
+                        animation: back 1s infinite alternate;
+                        @keyframes back {
+                            from{
+                                box-shadow: 0 0 0 red;
+                            }
+                            to{
+                                box-shadow: 0 0 20px red;
+
+                            }
+                        }
                     }
                 }
             }

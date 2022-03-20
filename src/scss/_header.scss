@@ -36,6 +36,11 @@ header{
         height: 100%;        
     }
     // nav ================================
+   .ul-container{
+       display: flex;
+       justify-content: flex-end;
+       position: relative;
+       
     ul{
         align-self: flex-end;
         display: flex;
@@ -97,5 +102,49 @@ header{
         }
        
     }
+
+    // ======================= shipping container ==============
+    #shipping-container, #delivery-container{
+        background-color: white;
+        width: 100%;
+        position: absolute;
+        top: 100%;
+        display: flex;
+        justify-content: space-between;
+        padding: 1%;
+         visibility: hidden;
+      
+        div{
+            width: 24%;
+            h2{
+                font-size: 1vw;
+                color: $red;
+                margin-bottom: 5%;
+            }
+            li{
+                list-style: none;
+                border-bottom: 0.1vw rgba(0, 0, 0, 0.164) solid;
+                margin-bottom: 5%;
+                cursor: pointer;
+                padding: 5%;
+                border-radius: 5px;
+                a{
+                    text-decoration: none;
+                    font-size: 0.9vw;
+                    color: black;
+                }
+                &:hover{
+                    background-color: red;
+                    a{
+                        color: white;
+                    }
+                }
+            }
+        }
+        .exit{
+            display: none;
+        }
+    }
+   }
     }
 }
