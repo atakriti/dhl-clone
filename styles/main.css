@@ -359,7 +359,6 @@ header .main-header .ul-container #shipping-container .exit, header .main-header
   width: 100%;
   padding: 4%;
   background-color: white;
-  height: 10vw;
 }
 .upper .middle .middle-container .two-pics div div form {
   display: inline-flex;
@@ -785,9 +784,6 @@ footer .last-footer h2 {
   }
   .upper .middle .middle-container .middle-text p {
     font-size: 3vw;
-  }
-  .upper .middle .middle-container .two-pics div div {
-    height: 23vw;
   }
   .upper .middle .middle-container .two-pics div div form {
     height: 3vw;
