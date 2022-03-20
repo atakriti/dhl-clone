@@ -281,6 +281,9 @@ header .main-header .ul-container #shipping-container .exit, header .main-header
   border-radius: 5px;
   cursor: pointer;
   transition: 0.5s;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 .upper .main-upper .three-pics div div button:hover {
   border: 0.1vw red solid;
@@ -760,6 +763,7 @@ footer .last-footer h2 {
   }
   .upper .main-upper .three-pics div div button {
     font-size: 2.2vw;
+    padding: 3% 0;
   }
   .upper .main-upper .hr-links {
     width: 90%;
@@ -830,6 +834,7 @@ footer .last-footer h2 {
   .down .top-section .top-section-container button {
     font-size: 2.2vw;
     width: 70%;
+    padding: 3% 0;
   }
   .down .bottom-section .bottom-section-container {
     width: 90%;
