@@ -1,0 +1,776 @@
+header {
+  width: 100%;
+}
+header .main-header {
+  width: 60%;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  padding: 1% 1% 0 1%;
+  background: linear-gradient(to right, #fc0, #ffeb9c);
+}
+header .main-header .top-links {
+  display: flex;
+  justify-content: space-between;
+  align-self: flex-end;
+  width: 23%;
+}
+header .main-header .top-links a {
+  text-decoration: none;
+  font-size: 0.8vw;
+  width: auto;
+  text-align: center;
+  transition: 0.5s;
+}
+header .main-header .top-links a:nth-child(1) {
+  border-bottom: 0.2vw red solid;
+}
+header .main-header .top-links a:hover {
+  background-color: white;
+  color: #d40511;
+}
+header .main-header a {
+  width: 7vw;
+  height: 100%;
+}
+header .main-header ul {
+  align-self: flex-end;
+  display: flex;
+  justify-content: space-between;
+  width: 60%;
+}
+header .main-header ul li {
+  list-style: none;
+  width: 21%;
+  padding: 1%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  transition: 0.5s;
+}
+header .main-header ul li a {
+  text-decoration: none;
+  font-size: 0.9vw;
+  height: auto;
+  width: auto;
+}
+header .main-header ul li i {
+  font-size: 0.8vw;
+}
+header .main-header ul li:nth-child(4) {
+  width: 8%;
+  text-align: center;
+}
+header .main-header ul li:nth-child(4) i {
+  margin-right: 14%;
+}
+header .main-header ul li:nth-child(5) {
+  width: 15%;
+}
+header .main-header ul li:nth-child(5) i {
+  margin-right: 14%;
+}
+header .main-header ul li:nth-child(6) {
+  width: 8%;
+  display: flex;
+  justify-content: space-between;
+}
+header .main-header ul li:nth-child(6) a {
+  color: #d40511;
+  font-weight: bold;
+}
+header .main-header ul li:nth-child(6) i {
+  margin-left: 10%;
+}
+header .main-header ul li:hover {
+  background-color: white;
+}
+header .main-header ul li:hover a {
+  color: #d40511;
+}
+
+.upper {
+  width: 100%;
+}
+.upper .main-upper {
+  width: 60%;
+  margin: 0 auto;
+}
+.upper .main-upper .bg-form .bg {
+  background-image: url(../images/main-bg.jpg);
+  background-size: cover;
+  height: 17vw;
+}
+.upper .main-upper .bg-form .bg .bg-text {
+  width: 65%;
+  height: 100%;
+  padding: 7%;
+}
+.upper .main-upper .bg-form .bg .bg-text p {
+  font-size: 1.2vw;
+  color: #d40511;
+}
+.upper .main-upper .bg-form .bg .bg-text h1 {
+  font-size: 2.3vw;
+  color: #d40511;
+  margin-top: 3%;
+}
+.upper .main-upper .bg-form .bg .bg-text button {
+  background-color: #d40511;
+  color: white;
+  font-size: 1vw;
+  width: 28%;
+  height: 20%;
+  margin-top: 5%;
+  border: none;
+  outline: none;
+  font-weight: bold;
+  cursor: pointer;
+  border-radius: 5px;
+  transition: 0.5s;
+}
+.upper .main-upper .bg-form .bg .bg-text button:hover {
+  background-color: white;
+  border: 0.1vw red solid;
+  color: #d40511;
+}
+.upper .main-upper .bg-form .form-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 2%;
+  background-color: #fc0;
+}
+.upper .main-upper .bg-form .form-container p {
+  font-size: 1vw;
+  font-weight: bold;
+  margin-right: 3%;
+}
+.upper .main-upper .bg-form .form-container form {
+  display: inline-flex;
+  width: 45%;
+  height: 2vw;
+}
+.upper .main-upper .bg-form .form-container form input {
+  font-size: 1vw;
+  width: 80%;
+  padding: 1%;
+  outline: none;
+  border: none;
+}
+.upper .main-upper .bg-form .form-container form input::placeholder {
+  font-size: 0.9vw;
+}
+.upper .main-upper .bg-form .form-container form button {
+  width: 28%;
+  font-size: 0.9vw;
+  background-color: #d40511;
+  color: white;
+  border: none;
+  outline: none;
+  border-radius: 0 5px 5px 0;
+  cursor: pointer;
+  transition: 0.5s;
+}
+.upper .main-upper .bg-form .form-container form button i {
+  margin-right: 8%;
+  font-size: 0.8vw;
+}
+.upper .main-upper .bg-form .form-container form button:hover {
+  color: #d40511;
+  background-color: white;
+  border: 0.1vw red solid;
+}
+
+.upper .main-upper .middle-text {
+  padding: 5%;
+  text-align: center;
+}
+.upper .main-upper .middle-text h1 {
+  font-size: 2vw;
+  margin-bottom: 2%;
+}
+.upper .main-upper .middle-text p {
+  font-size: 1vw;
+}
+.upper .main-upper .three-pics {
+  display: flex;
+  justify-content: space-between;
+}
+.upper .main-upper .three-pics div {
+  width: 32%;
+}
+.upper .main-upper .three-pics div a img {
+  width: 100%;
+  border-bottom: 0.3vw red solid;
+}
+.upper .main-upper .three-pics div div {
+  width: 100%;
+  padding: 3%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 10vw;
+}
+.upper .main-upper .three-pics div div h2 {
+  font-size: 1.2vw;
+  color: #d40511;
+}
+.upper .main-upper .three-pics div div h2 i {
+  font-size: 0.8vw;
+  margin-left: 3%;
+}
+.upper .main-upper .three-pics div div p {
+  font-size: 1vw;
+}
+.upper .main-upper .three-pics div div button {
+  width: 100%;
+  border: 1px gray solid;
+  background-color: transparent;
+  color: #d40511;
+  font-weight: bold;
+  font-size: 1vw;
+  padding: 1.5% 0;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: 0.5s;
+}
+.upper .main-upper .three-pics div div button:hover {
+  border: 0.1vw red solid;
+}
+.upper .main-upper .hr-links {
+  display: flex;
+  justify-content: space-between;
+  margin: 10% 0;
+}
+.upper .main-upper .hr-links div {
+  width: 32%;
+  border-top: 0.1vw #c8c8c8 solid;
+  border-bottom: 0.1vw #c8c8c8 solid;
+}
+.upper .main-upper .hr-links div a {
+  margin: 5% 0;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  text-decoration: none;
+  padding: 0 3%;
+}
+.upper .main-upper .hr-links div a p {
+  font-size: 1vw;
+  color: black;
+  font-weight: bold;
+  cursor: pointer;
+  transition: 0.5s;
+}
+.upper .main-upper .hr-links div a p:hover {
+  color: #d40511;
+}
+.upper .main-upper .hr-links div a i {
+  font-size: 1vw;
+  color: #d40511;
+}
+.upper .middle {
+  background-color: #f5f5f5;
+  width: 100%;
+  padding: 3% 0;
+}
+.upper .middle .middle-container {
+  width: 60%;
+  margin: 0 auto;
+}
+.upper .middle .middle-container .middle-text {
+  text-align: center;
+}
+.upper .middle .middle-container .middle-text h1 {
+  font-size: 1.8vw;
+  margin: 1% 0;
+}
+.upper .middle .middle-container .middle-text p {
+  font-size: 1vw;
+  margin: 1% 0;
+}
+.upper .middle .middle-container .two-pics {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 5%;
+}
+.upper .middle .middle-container .two-pics div {
+  width: 48%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  overflow: hidden;
+}
+.upper .middle .middle-container .two-pics div:nth-child(1) div {
+  padding-bottom: 11%;
+}
+.upper .middle .middle-container .two-pics div a img {
+  width: 100%;
+}
+.upper .middle .middle-container .two-pics div div {
+  border: 0.3vw #e7e7e7 solid;
+  width: 100%;
+  padding: 4%;
+  background-color: white;
+  height: 10vw;
+}
+.upper .middle .middle-container .two-pics div div form {
+  display: inline-flex;
+  width: 100%;
+  height: 2vw;
+}
+.upper .middle .middle-container .two-pics div div form input {
+  font-size: 1vw;
+  width: 100%;
+  border-radius: 5px 0 0 5px;
+  padding: 1%;
+  outline: none;
+  border: 1px #b3b3b3 solid;
+}
+.upper .middle .middle-container .two-pics div div form button {
+  width: 10%;
+  background-color: #d40511;
+  border: none;
+  outline: none;
+  border-radius: 0 5px 5px 0;
+  transition: 0.5s;
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.upper .middle .middle-container .two-pics div div form button i {
+  font-size: 1vw;
+  color: white;
+}
+.upper .middle .middle-container .two-pics div div form button:hover {
+  background-color: white;
+  border: 0.1vw red solid;
+}
+.upper .middle .middle-container .two-pics div div form button:hover i {
+  color: #d40511;
+}
+.upper .middle .middle-container .two-pics div div h1 {
+  font-size: 1vw;
+  margin-bottom: 1%;
+}
+.upper .middle .middle-container .two-pics div div p {
+  font-size: 0.9vw;
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+  transition: 0.5s;
+}
+.upper .middle .middle-container .two-pics div div p i {
+  font-size: 0.8vw;
+  margin-left: 3%;
+}
+.upper .middle .middle-container .two-pics div div p:nth-child(3) {
+  font-weight: bold;
+  margin-top: 4%;
+}
+.upper .middle .middle-container .two-pics div div p:nth-child(3) i {
+  color: #d40511;
+}
+.upper .middle .middle-container .two-pics div div p:hover {
+  color: #d40511;
+}
+
+.down {
+  width: 100%;
+}
+.down .top-section .top-section-container {
+  width: 60%;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 4% 0;
+}
+.down .top-section .top-section-container h1 {
+  font-size: 1.8vw;
+}
+.down .top-section .top-section-container .container {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 5%;
+}
+.down .top-section .top-section-container .container div {
+  width: 32%;
+  background-color: #f8f8f8;
+  padding: 2% 1%;
+}
+.down .top-section .top-section-container .container div h2 {
+  font-size: 1vw;
+  color: #d40511;
+  margin-bottom: 4%;
+}
+.down .top-section .top-section-container .container div h2 i {
+  font-size: 0.9vw;
+  margin-left: 3%;
+}
+.down .top-section .top-section-container .container div p {
+  font-size: 1vw;
+  margin: 2% 0;
+}
+.down .top-section .top-section-container button {
+  width: 50%;
+  margin-top: 5%;
+  font-size: 1vw;
+  background-color: #d40511;
+  color: white;
+  padding: 1% 0;
+  border: none;
+  outline: none;
+  font-weight: bold;
+  cursor: pointer;
+  border-radius: 5px;
+  transition: 0.5s;
+}
+.down .top-section .top-section-container button:hover {
+  background-color: white;
+  border: 0.1vw red solid;
+  color: #d40511;
+}
+.down .bottom-section {
+  background-color: #f5f5f5;
+  padding: 2%;
+}
+.down .bottom-section .bottom-section-container {
+  width: 60%;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+}
+.down .bottom-section .bottom-section-container div {
+  width: 32%;
+}
+.down .bottom-section .bottom-section-container div hr {
+  border-top: 0.1vw #dbdbdb solid;
+}
+.down .bottom-section .bottom-section-container div h1 {
+  font-size: 1.7vw;
+  margin-bottom: 6%;
+}
+.down .bottom-section .bottom-section-container div a {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  align-items: center;
+  text-decoration: none;
+  padding: 5% 2%;
+}
+.down .bottom-section .bottom-section-container div a p {
+  font-size: 0.9vw;
+  color: black;
+  font-weight: bold;
+}
+.down .bottom-section .bottom-section-container div a i {
+  font-size: 0.9vw;
+  color: #d40511;
+}
+.down .bottom-section .bottom-section-container div a:hover p {
+  color: #d40511;
+  transition: 0.5s;
+}
+
+footer {
+  border-top: 0.2vw #c4c4c4 solid;
+  width: 100%;
+  margin-top: 4%;
+  padding: 2% 0;
+  background-color: #f5f5f5;
+}
+footer .footer-top {
+  width: 60%;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+}
+footer .footer-top div {
+  width: 23%;
+  display: flex;
+  flex-direction: column;
+}
+footer .footer-top div h1 {
+  font-size: 1.2vw;
+}
+footer .footer-top div a {
+  text-decoration: none;
+  font-size: 1vw;
+  color: black;
+  margin-top: 10%;
+}
+footer .footer-top div a:hover {
+  color: #d40511;
+  transition: 0.5s;
+}
+footer .footer-top div .footer-social {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  width: 70%;
+}
+footer .footer-top div .footer-social i {
+  font-size: 1.2vw;
+  border: 0.1vw #cccccc solid;
+  border-radius: 50%;
+  width: 30%;
+  color: #d40511;
+  margin-top: 5%;
+  text-align: center;
+  padding: 8% 0;
+  cursor: pointer;
+  transition: 0.5s;
+}
+footer .footer-top div .footer-social i:hover {
+  border: 0.1vw #fc0 solid;
+  color: #fc0;
+}
+footer .footer-hr {
+  width: 60%;
+  margin: 4% auto;
+}
+footer .footer-hr hr {
+  border-top: 0.1vw #c2c2c2 solid;
+}
+footer .last-footer {
+  width: 60%;
+  margin: 4% auto;
+}
+footer .last-footer h1 {
+  text-align: center;
+  font-size: 1vw;
+}
+footer .last-footer .footer-links {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  margin: 4% 0;
+}
+footer .last-footer .footer-links a {
+  font-size: 0.9vw;
+  text-decoration: none;
+  color: black;
+  transition: 0.5s;
+}
+footer .last-footer .footer-links a:hover {
+  color: #d40511;
+}
+footer .last-footer h2 {
+  font-size: 0.8vw;
+  color: gray;
+  text-align: center;
+}
+
+@media only screen and (max-width: 800px) {
+  header .main-header {
+    width: 100%;
+    margin: 0;
+  }
+  header .main-header .top-links {
+    width: 27%;
+  }
+  header .main-header .top-links a {
+    font-size: 1.5vw;
+  }
+  header .main-header a {
+    width: 14vw;
+  }
+  header .main-header ul li a {
+    font-size: 1.5vw;
+  }
+  header .main-header ul li i {
+    font-size: 1.4vw;
+  }
+
+  .upper .main-upper {
+    width: 100%;
+    margin: 0;
+  }
+  .upper .main-upper .bg-form .bg {
+    height: 30vw;
+  }
+  .upper .main-upper .bg-form .bg .bg-text p {
+    font-size: 2vw;
+  }
+  .upper .main-upper .bg-form .bg .bg-text h1 {
+    font-size: 3vw;
+  }
+  .upper .main-upper .bg-form .bg .bg-text button {
+    font-size: 1.5vw;
+  }
+  .upper .main-upper .bg-form .form-container p {
+    font-size: 1.5vw;
+  }
+  .upper .main-upper .bg-form .form-container form {
+    width: 60%;
+    height: 3vw;
+  }
+  .upper .main-upper .bg-form .form-container form input {
+    font-size: 1.5vw;
+  }
+  .upper .main-upper .bg-form .form-container form input::placeholder {
+    font-size: 1.5vw;
+  }
+  .upper .main-upper .bg-form .form-container form button {
+    width: 20%;
+    font-size: 1.5vw;
+  }
+  .upper .main-upper .bg-form .form-container form button i {
+    font-size: 1.4vw;
+  }
+  .upper .main-upper .middle-text h1 {
+    font-size: 3vw;
+  }
+  .upper .main-upper .middle-text p {
+    font-size: 2vw;
+  }
+  .upper .main-upper .three-pics {
+    width: 70%;
+    margin: 0 auto;
+    flex-wrap: wrap;
+  }
+  .upper .main-upper .three-pics div {
+    width: 100%;
+    margin-bottom: 4%;
+  }
+  .upper .main-upper .three-pics div a img {
+    border-bottom: 0.5vw red solid;
+  }
+  .upper .main-upper .three-pics div div {
+    height: 20vw;
+  }
+  .upper .main-upper .three-pics div div h2 {
+    font-size: 2vw;
+  }
+  .upper .main-upper .three-pics div div h2 i {
+    font-size: 1.4vw;
+  }
+  .upper .main-upper .three-pics div div p {
+    font-size: 1.5vw;
+  }
+  .upper .main-upper .three-pics div div button {
+    font-size: 1.5vw;
+  }
+  .upper .main-upper .hr-links {
+    width: 70%;
+    margin: 10% auto;
+    flex-wrap: wrap;
+  }
+  .upper .main-upper .hr-links div {
+    width: 100%;
+    margin-bottom: 5%;
+  }
+  .upper .main-upper .hr-links div a p {
+    font-size: 1.5vw;
+  }
+  .upper .main-upper .hr-links div a i {
+    font-size: 1.4vw;
+  }
+  .upper .middle .middle-container {
+    width: 90%;
+  }
+  .upper .middle .middle-container .middle-text h1 {
+    font-size: 3vw;
+  }
+  .upper .middle .middle-container .middle-text p {
+    font-size: 2vw;
+  }
+  .upper .middle .middle-container .two-pics div div {
+    height: 13vw;
+  }
+  .upper .middle .middle-container .two-pics div div form {
+    height: 3vw;
+  }
+  .upper .middle .middle-container .two-pics div div form input {
+    font-size: 1.5vw;
+  }
+  .upper .middle .middle-container .two-pics div div form button i {
+    font-size: 1.4vw;
+  }
+  .upper .middle .middle-container .two-pics div div h1 {
+    font-size: 1.5vw;
+  }
+  .upper .middle .middle-container .two-pics div div p {
+    font-size: 1.5vw;
+  }
+  .upper .middle .middle-container .two-pics div div p i {
+    font-size: 1.4vw;
+  }
+
+  .down .top-section .top-section-container {
+    width: 90%;
+  }
+  .down .top-section .top-section-container h1 {
+    font-size: 3vw;
+  }
+  .down .top-section .top-section-container .container {
+    width: 70%;
+    flex-wrap: wrap;
+  }
+  .down .top-section .top-section-container .container div {
+    width: 100%;
+    margin-bottom: 5%;
+  }
+  .down .top-section .top-section-container .container div h2 {
+    font-size: 2vw;
+  }
+  .down .top-section .top-section-container .container div h2 i {
+    font-size: 1.5vw;
+  }
+  .down .top-section .top-section-container .container div p {
+    font-size: 1.5vw;
+  }
+  .down .top-section .top-section-container button {
+    font-size: 1.5vw;
+  }
+  .down .bottom-section .bottom-section-container {
+    width: 90%;
+  }
+  .down .bottom-section .bottom-section-container div h1 {
+    font-size: 2vw;
+  }
+  .down .bottom-section .bottom-section-container div a p {
+    font-size: 1.5vw;
+  }
+  .down .bottom-section .bottom-section-container div a i {
+    font-size: 1.4vw;
+  }
+
+  footer .footer-top {
+    width: 90%;
+  }
+  footer .footer-top div h1 {
+    font-size: 2vw;
+  }
+  footer .footer-top div a {
+    font-size: 1.5vw;
+  }
+  footer .footer-top div .footer-social i {
+    font-size: 1.5vw;
+  }
+  footer .last-footer {
+    width: 90%;
+  }
+  footer .last-footer h1 {
+    font-size: 1.5vw;
+  }
+  footer .last-footer .footer-links a {
+    font-size: 1.2vw;
+  }
+  footer .last-footer h2 {
+    font-size: 1.2vw;
+  }
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/*# sourceMappingURL=main.css.map */
