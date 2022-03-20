@@ -45,7 +45,9 @@ header{
         align-self: flex-end;
         display: flex;
         justify-content: space-between;
-        width: 60%;
+        width: 40vw;
+        border: 1px red solid;
+
         li{
             list-style: none;
             width: 21%;
