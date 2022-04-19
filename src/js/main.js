@@ -1,9 +1,11 @@
 function shipping() {
     let element = document.getElementById("shipping-container");
+    let elementDelivery = document.getElementById("delivery-container");
+
     if (element.style.visibility == "hidden") {
         element.style.visibility = "visible";
         element.style.transform = "translate(0)";
-        
+        elementDelivery.style.visibility = "hidden"
 
     } else {
         element.style.visibility = "hidden";
@@ -13,9 +15,11 @@ function shipping() {
 // ============ Delivery =============
 function delivery() {
     let element = document.getElementById("delivery-container");
+    let elementShipping = document.getElementById("shipping-container");
     if (element.style.visibility == "hidden") {
         element.style.visibility = "visible";
         element.style.transform = "translate(0)";
+        elementShipping.style.visibility = "hidden"
     } else {
         element.style.visibility = "hidden";     
     }
